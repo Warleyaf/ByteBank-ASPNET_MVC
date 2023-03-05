@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Editar Usuário";
+}
+
+<div class="text-center">
+
+    <h1 class="display-4">Retirar Dinheiro</h1>
+
+</div>
+
+<form>
+    <div class="form-group">
+        <label for="saque"> <h5>Quantidade a Ser Retirado R$</h5> </label>
+        <input type="number" class="form-control" placeholder="R$">
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Confirmar</button>
+    <a class="btn btn-secondary" asp-controller="Transacao" asp-action="Index" role="button">Voltar</a>
+</form>
