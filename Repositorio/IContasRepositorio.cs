@@ -2,7 +2,7 @@
 using ByteBankMvc.Models;
 
 namespace ByteBankMvc.Repositorio {
-    public interface IContasRepositorio { // aqui iremos criar todos os métodos como contrato aqui no nosso repositorio
+    public interface IContasRepositorio {
 
         ContasModel ListPorId (int id);
         List<ContasModel> BuscarTodos();
